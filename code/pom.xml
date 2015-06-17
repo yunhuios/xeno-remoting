@@ -117,7 +117,7 @@
 				<version>${plugin.saga.version}</version>
 				<configuration>
 					<baseDir>http://localhost:${jasmine.serverPort}</baseDir>
-					<outputDir>${basedir}/../build/test-result</outputDir>
+					<outputDir>${project.build.directory}/test-results</outputDir>
 					<noInstrumentPatterns>
 						<pattern>.*/spec/.*</pattern>
 					</noInstrumentPatterns>
@@ -139,7 +139,7 @@
 					<formats>
 						<format>html</format>
 					</formats>
-					<outputDirectory>${basedir}/../build/test-result</outputDirectory>
+					<outputDirectory>${project.build.directory}/test-results</outputDirectory>
 				</configuration>
 				<executions>
 					<execution>
@@ -283,6 +283,9 @@
 						</copy>
 						<copy todir="${project.build.directory}/${project.artifactId}-${project.version}/libraries" encoding="UTF-8" outputencoding="UTF-8">
 							<fileset dir="${project.build.directory}/libraries" />
+						</copy>
+						<copy todir="${project.build.directory}/${project.artifactId}-${project.version}/test-results" encoding="UTF-8" outputencoding="UTF-8">
+							<fileset dir="${project.build.directory}/test-results" />
 						</copy>
 						<copy file="${project.build.directory}/${project.artifactId}-${project.version}.jar" tofile="${project.build.directory}/${project.artifactId}-${project.version}/${project.artifactId}-${project.version}.jar" encoding="UTF-8" outputencoding="UTF-8" />
 						<copy file="${project.build.directory}/${project.artifactId}-${project.version}-sources.jar" tofile="${project.build.directory}/${project.artifactId}-${project.version}/${project.artifactId}-${project.version}-sources.jar" encoding="UTF-8" outputencoding="UTF-8" />
