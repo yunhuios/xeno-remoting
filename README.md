@@ -7,9 +7,7 @@ The "xeno-remoting" (the "XR") is a Java library aim to simplify the development
 
 # License
 
-The XR is free software, licensed under the Apache License, Version 2.0 (the "License"). Commercial and non-commercial use are permitted in compliance with the License.
-
-You may obtain a copy of the License at: "http://www.apache.org/licenses/LICENSE-2.0". In addition, a copy of the License is included with this distribution.
+The XR is free software, licensed under the Apache License, Version 2.0 (the "License"). Commercial and non-commercial use are permitted in compliance with the License. You may obtain a copy of the License at: "http://www.apache.org/licenses/LICENSE-2.0". In addition, a copy of the License is included with this distribution.
 
 The source code is available at: "https://github.com/kfeng2015/xeno-remoting".
 
