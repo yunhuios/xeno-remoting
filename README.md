@@ -3,7 +3,7 @@
 The "xeno-remoting" (the "XR") is a Java library aim to simplify the development process between the client side and the server side for AJAX based web applications, it provides below features:
 
 - Enable the client side JavaScript to call the server side Java methods directly.
-- Enable the server side Java to call the client side JavaScript functions directly.
+- Implement the server side to push data back to the client side when needed.
 
 # License
 
@@ -15,8 +15,8 @@ The source code is available at: "https://github.com/kfeng2015/xeno-remoting".
 
 To run the XR successfully, the server side system should meet below requirements:
 
-- Install Java 7 runtime environment with correct settings.
-- Install Servlet 3.0 specification implemented web container.
+- Install Java 7+ runtime environment with correct settings.
+- Install Servlet 2.5+ specification implemented web container.
 
 # Browsers Compatibility
 
