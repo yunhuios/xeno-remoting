@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.since10</groupId>
+	<artifactId>xeno-remoting-sample</artifactId>
+	<version>1.0.0</version>
+	<packaging>war</packaging>
+
+	<repositories>
+		<repository>
+			<id>since10-repo</id>
+			<url>http://www.since10.com:8081/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.since10</groupId>
+			<artifactId>xeno-remoting</artifactId>
+			<version>3.2.0</version>
+		</dependency>
+	</dependencies>
+
+</project>
